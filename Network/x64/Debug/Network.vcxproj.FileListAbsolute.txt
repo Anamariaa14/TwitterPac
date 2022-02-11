@@ -1,0 +1,2 @@
+D:\II\PAC\twitterpac\twitterpac_client2\x64\Debug\Network.pdb
+D:\II\PAC\twitterpac\twitterpac_client2\Network\x64\Debug\Network.pdb
