@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="twitterpac_client2">
+    <file>dislike.jpg</file>
+    <file>dislike1.jpg</file>
+    <file>like11.png</file>
+    <file>reply11.png</file>
+    <file>retweet11.png</file>
+    <file>like.jpg</file>
+    <file>like1.jpg</file>
+    <file>retweet.jpg</file>
+    <file>retweet1.jpg</file>
+    <file>reply1.jpg</file>
+    <file>reply.jpg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScrollArea</class>
+ <widget class="QWidget" name="ScrollArea">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ScrollArea</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>671</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  QScrollBar:vertical {
+	background-color: rgb(206, 206, 206);
+    width: 14px;
+    margin: 15px 0 15px 0;
+ }
+
+QScrollBar::handle:vertical {	
+	background-color: rgb(206, 206, 206);
+	min-height: 30px;
+	border-radius: 7px;
+}
+
+QScrollBar::handle:vertical:hover{	
+	background-color: rgb(193, 193, 193);
+}
+QScrollBar::handle:vertical:pressed {	
+	background-color: rgb(165, 165, 165);
+}
+
+QScrollBar::sub-line:vertical {
+	background-color: rgb(206, 206, 206);
+	height: 15px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical:hover {
+	background-color: rgb(193, 193, 193);
+}
+
+QScrollBar::sub-line:vertical:pressed {	
+	background-color: rgb(165, 165, 165);
+}
+
+QScrollBar::add-line:vertical {
+	background-color: rgb(206, 206, 206);
+	height: 15px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical:hover {
+	background-color: rgb(193, 193, 193);
+}
+
+QScrollBar::add-line:vertical:pressed {	
+	background-color: rgb(165, 165, 165);
+}
+</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-499</y>
+      <width>655</width>
+      <height>1018</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QScrollBar:vertical {
+	background-color: rgb(206, 206, 206);
+    width: 14px;
+    margin: 15px 0 15px 0;
+ }
+
+QScrollBar::handle:vertical {	
+	background-color: rgb(206, 206, 206);
+	min-height: 30px;
+	border-radius: 7px;
+}
+
+QScrollBar::handle:vertical:hover{	
+	background-color: rgb(193, 193, 193);
+}
+QScrollBar::handle:vertical:pressed {	
+	background-color: rgb(165, 165, 165);
+}
+
+QScrollBar::sub-line:vertical {
+	background-color: rgb(206, 206, 206);
+	height: 15px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical:hover {
+	background-color: rgb(193, 193, 193);
+}
+
+QScrollBar::sub-line:vertical:pressed {	
+	background-color: rgb(165, 165, 165);
+}
+
+QScrollBar::add-line:vertical {
+	background-color: rgb(206, 206, 206);
+	height: 15px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical:hover {
+	background-color: rgb(193, 193, 193);
+}
+
+QScrollBar::add-line:vertical:pressed {	
+	background-color: rgb(165, 165, 165);
+}
+</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="minimumSize">
+        <size>
+         <width>500</width>
+         <height>1000</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>631</width>
+          <height>1171</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout"/>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

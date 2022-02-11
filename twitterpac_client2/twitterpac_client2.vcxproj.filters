@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UiHeaders">
+      <UniqueIdentifier>{2f1fc3ce-f8ff-4002-a7a1-b0808ba842d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UiSources">
+      <UniqueIdentifier>{a0771dcb-3a66-4314-9077-c105b6aeedc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="twitterpac_client2.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="twitterpac_client2.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Comment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dashboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tweet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommentPost.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Post.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Retweet.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="SeeComments.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="SideBarMenu.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="TweetPost.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="twitterpac_client2.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInList.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="UserProfile.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RetweetPreface.cpp">
+      <Filter>Source Files\UiSources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="SideBarMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="TweetPost.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UserProfile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Search.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Post.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UserInList.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="CommentPost.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SeeComments.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Retweet.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ScrollArea.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RetweetPreface.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CommentPost.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="Post.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="Retweet.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="Search.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="SeeComments.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="SideBarMenu.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="TweetPost.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="twitterpac_client2.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="UserInList.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="UserProfile.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="ScrollArea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ScrollArea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="RetweetPreface.h">
+      <Filter>Header Files\UiHeaders</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Comment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dashboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tweet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
